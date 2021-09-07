@@ -1,0 +1,305 @@
+ems.smx
+L 09/07/2021 - 19:32:05: [SM] Call stack trace:
+L 09/07/2021 - 19:32:05: [SM]   [0] SetFailState
+L 09/07/2021 - 19:32:05: [SM]   [1] Line 41, files/parse.sp::LoadBackup
+L 09/07/2021 - 19:32:05: [SM]   [2] Line 24, files/parse.sp::PraseItemsDownloaded
+L 09/07/2021 - 19:32:05: [weapons.smx] Delete Inactive Player Data failed! query: "DELETE FROM weapons WHERE steamid in (SELECT steamid FROM weapons_timestamps WHERE last_seen < 1631035925 - (30 * 86400))" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:32:30: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 19:32:30: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:603506329')" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:33:01: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 34 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:33:02: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 33 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:33:07: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_karambit = 419 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:33:08: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_karambit = 420 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:33:09: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_karambit = 421 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:33:18: [gloves.smx] Update Player failed! no such table: gloves
+L 09/07/2021 - 19:33:27: [weapons.smx] Update Player failed! query: "UPDATE weapons SET glock = 988 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:33:43: [weapons.smx] Update Player failed! query: "UPDATE weapons SET awp = 691 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:33:59: [weapons.smx] Update Player failed! query: "UPDATE weapons SET ak47 = 724 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:40:43: SourceMod error session started
+L 09/07/2021 - 19:40:43: Info (map "de_mirage") (file "")
+L 09/07/2021 - 19:40:43: [PTaH] Could not locate CCSPlayer::FindMatchingWeaponsForTeamLoadout - Disabling detour
+L 09/07/2021 - 19:40:43: [PTaH] Detour failed CCSPlayer::FindMatchingWeaponsForTeamLoadout, functionality GiveNamedItemPre will be limited.
+L 09/07/2021 - 19:40:43: [PTaH] Failed to get CBaseClient::ClientPrintf offset, Hook ConsolePrintPre will be unavailable.
+L 09/07/2021 - 19:40:43: [PTaH] Failed to get CBaseClient::ClientPrintf offset, Hook ConsolePrintPost will be unavailable.
+L 09/07/2021 - 19:40:43: [PTaH] Failed to get CGameClient::ExecuteStringCommand offset, Hook ExecuteStringCommandPre will be unavailable.
+L 09/07/2021 - 19:40:43: [PTaH] Failed to get CGameClient::ExecuteStringCommand offset, Hook ExecuteStringCommandPost will be unavailable.
+L 09/07/2021 - 19:40:43: [PTaH] Failed to get CBaseServer::RejectConnection offset, Hook ClientConnectPre will be unavailable.
+L 09/07/2021 - 19:40:43: [PTaH] Failed to get CBaseServer::ConnectClient offset, Hook ClientConnectPost will be unavailable.
+L 09/07/2021 - 19:40:43: [PTaH] Failed to get CPlayerInventory::SendInventoryUpdateEvent offset, Hook InventoryUpdatePost will be unavailable.
+L 09/07/2021 - 19:40:43: [SM] Fatal error encountered parsing translation file "advadmin.phrases.txt"
+L 09/07/2021 - 19:40:43: [SM] Error (line 0, column 0): Stream failed to open
+L 09/07/2021 - 19:40:43: [CLIENTPREFS] Failed SQL Query, Error: "attempt to write a readonly database" (Query id 0 - serial 0)
+L 09/07/2021 - 19:40:43: [CLIENTPREFS] Failed SQL Query, Error: "attempt to write a readonly database" (Query id 0 - serial 0)
+L 09/07/2021 - 19:40:43: [SM] Fatal error encountered parsing translation file "franug_weaponpaints.phrases.txt"
+L 09/07/2021 - 19:40:43: [SM] Error (line 279, column 32): Un-quoted section has invalid tokens
+L 09/07/2021 - 19:40:43: [CLIENTPREFS] Failed SQL Query, Error: "attempt to write a readonly database" (Query id 0 - serial 0)
+L 09/07/2021 - 19:40:43: [CLIENTPREFS] Failed SQL Query, Error: "attempt to write a readonly database" (Query id 0 - serial 0)
+L 09/07/2021 - 19:40:45: [SM] Exception reported: [eItems] Local backup not found! Turning plugin off.
+L 09/07/2021 - 19:40:45: [SM] Blaming: eItems.smx
+L 09/07/2021 - 19:40:45: [SM] Call stack trace:
+L 09/07/2021 - 19:40:45: [SM]   [0] SetFailState
+L 09/07/2021 - 19:40:45: [SM]   [1] Line 41, files/parse.sp::LoadBackup
+L 09/07/2021 - 19:40:45: [SM]   [2] Line 24, files/parse.sp::PraseItemsDownloaded
+L 09/07/2021 - 19:40:45: [gloves.smx] Create table failed! attempt to write a readonly database
+L 09/07/2021 - 19:40:45: [weapons.smx] Delete Inactive Player Data failed! query: "DELETE FROM weapons WHERE steamid in (SELECT steamid FROM weapons_timestamps WHERE last_seen < 1631036445 - (30 * 86400))" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:41:09: Error log file session closed.
+L 09/07/2021 - 19:41:09: SourceMod error session started
+L 09/07/2021 - 19:41:09: Info (map "de_mirage") (file "")
+L 09/07/2021 - 19:41:09: [SM] Fatal error encountered parsing translation file "advadmin.phrases.txt"
+L 09/07/2021 - 19:41:09: [SM] Error (line 0, column 0): Stream failed to open
+L 09/07/2021 - 19:41:09: [SM] Fatal error encountered parsing translation file "franug_weaponpaints.phrases.txt"
+L 09/07/2021 - 19:41:09: [SM] Error (line 279, column 32): Un-quoted section has invalid tokens
+L 09/07/2021 - 19:41:10: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 09/07/2021 - 19:41:10: [SM] Exception reported: [eItems] Local backup not found! Turning plugin off.
+L 09/07/2021 - 19:41:10: [SM] Blaming: eItems.smx
+L 09/07/2021 - 19:41:10: [SM] Call stack trace:
+L 09/07/2021 - 19:41:10: [SM]   [0] SetFailState
+L 09/07/2021 - 19:41:10: [SM]   [1] Line 41, files/parse.sp::LoadBackup
+L 09/07/2021 - 19:41:10: [SM]   [2] Line 24, files/parse.sp::PraseItemsDownloaded
+L 09/07/2021 - 19:41:10: [weapons.smx] Delete Inactive Player Data failed! query: "DELETE FROM weapons WHERE steamid in (SELECT steamid FROM weapons_timestamps WHERE last_seen < 1631036470 - (30 * 86400))" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:41:17: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 19:41:17: [weapons.smx] Timestamp Query failed! query: "REPLACE INTO weapons_timestamps (steamid, last_seen) VALUES ('STEAM_1:1:175424855', 1631036477)" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:41:28: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = 962 WHERE steamid = 'STEAM_1:1:175424855'" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:41:44: Error log file session closed.
+L 09/07/2021 - 19:41:44: SourceMod error session started
+L 09/07/2021 - 19:41:44: Info (map "de_inferno") (file "")
+L 09/07/2021 - 19:41:44: [SM] Fatal error encountered parsing translation file "advadmin.phrases.txt"
+L 09/07/2021 - 19:41:44: [SM] Error (line 0, column 0): Stream failed to open
+L 09/07/2021 - 19:41:44: [SM] Fatal error encountered parsing translation file "franug_weaponpaints.phrases.txt"
+L 09/07/2021 - 19:41:44: [SM] Error (line 279, column 32): Un-quoted section has invalid tokens
+L 09/07/2021 - 19:41:45: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 09/07/2021 - 19:41:45: [SM] Exception reported: [eItems] Local backup not found! Turning plugin off.
+L 09/07/2021 - 19:41:45: [SM] Blaming: eItems.smx
+L 09/07/2021 - 19:41:45: [SM] Call stack trace:
+L 09/07/2021 - 19:41:45: [SM]   [0] SetFailState
+L 09/07/2021 - 19:41:45: [SM]   [1] Line 41, files/parse.sp::LoadBackup
+L 09/07/2021 - 19:41:45: [SM]   [2] Line 24, files/parse.sp::PraseItemsDownloaded
+L 09/07/2021 - 19:41:45: [weapons.smx] Delete Inactive Player Data failed! query: "DELETE FROM weapons WHERE steamid in (SELECT steamid FROM weapons_timestamps WHERE last_seen < 1631036505 - (30 * 86400))" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:41:52: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 19:41:52: [weapons.smx] Timestamp Query failed! query: "REPLACE INTO weapons_timestamps (steamid, last_seen) VALUES ('STEAM_1:1:175424855', 1631036512)" error: "attempt to write a readonly database"
+L 09/07/2021 - 19:42:21: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 19:42:21: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 19:42:21: [SM] Call stack trace:
+L 09/07/2021 - 19:42:21: [SM]   [0] VFormat
+L 09/07/2021 - 19:42:21: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 19:42:21: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 19:42:27: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 19:42:27: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:571029191')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:05:48: Error log file session closed.
+L 09/07/2021 - 20:05:48: SourceMod error session started
+L 09/07/2021 - 20:05:48: Info (map "de_inferno") (file "")
+L 09/07/2021 - 20:05:48: [SM] Fatal error encountered parsing translation file "advadmin.phrases.txt"
+L 09/07/2021 - 20:05:48: [SM] Error (line 0, column 0): Stream failed to open
+L 09/07/2021 - 20:05:48: [SM] Fatal error encountered parsing translation file "franug_weaponpaints.phrases.txt"
+L 09/07/2021 - 20:05:48: [SM] Error (line 279, column 32): Un-quoted section has invalid tokens
+L 09/07/2021 - 20:05:48: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 09/07/2021 - 20:05:48: [SM] Exception reported: [eItems] Local backup not found! Turning plugin off.
+L 09/07/2021 - 20:05:48: [SM] Blaming: eItems.smx
+L 09/07/2021 - 20:05:48: [SM] Call stack trace:
+L 09/07/2021 - 20:05:48: [SM]   [0] SetFailState
+L 09/07/2021 - 20:05:48: [SM]   [1] Line 41, files/parse.sp::LoadBackup
+L 09/07/2021 - 20:05:48: [SM]   [2] Line 24, files/parse.sp::PraseItemsDownloaded
+L 09/07/2021 - 20:05:49: [weapons.smx] Delete Inactive Player Data failed! query: "DELETE FROM weapons WHERE steamid in (SELECT steamid FROM weapons_timestamps WHERE last_seen < 1631037948 - (30 * 86400))" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:07:10: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:07:10: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:1:582209834')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:05: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 45 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:06: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 44 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:07: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 43 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:09: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 34 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:12: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 35 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:13: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 37 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:15: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 36 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:16: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 39 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:18: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 43 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:19: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 0 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:20: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 49 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:21: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 50 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:21: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 51 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:22: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 52 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:09:28: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 37 WHERE steamid = 'STEAM_1:1:582209834'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:31:28: Error log file session closed.
+L 09/07/2021 - 20:31:28: SourceMod error session started
+L 09/07/2021 - 20:31:28: Info (map "de_inferno") (file "")
+L 09/07/2021 - 20:31:28: [SM] Fatal error encountered parsing translation file "advadmin.phrases.txt"
+L 09/07/2021 - 20:31:28: [SM] Error (line 0, column 0): Stream failed to open
+L 09/07/2021 - 20:31:28: [SM] Fatal error encountered parsing translation file "franug_weaponpaints.phrases.txt"
+L 09/07/2021 - 20:31:28: [SM] Error (line 279, column 32): Un-quoted section has invalid tokens
+L 09/07/2021 - 20:31:29: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 09/07/2021 - 20:31:29: [SM] Exception reported: [eItems] Local backup not found! Turning plugin off.
+L 09/07/2021 - 20:31:29: [SM] Blaming: eItems.smx
+L 09/07/2021 - 20:31:29: [SM] Call stack trace:
+L 09/07/2021 - 20:31:29: [SM]   [0] SetFailState
+L 09/07/2021 - 20:31:29: [SM]   [1] Line 41, files/parse.sp::LoadBackup
+L 09/07/2021 - 20:31:29: [SM]   [2] Line 24, files/parse.sp::PraseItemsDownloaded
+L 09/07/2021 - 20:31:29: [weapons.smx] Delete Inactive Player Data failed! query: "DELETE FROM weapons WHERE steamid in (SELECT steamid FROM weapons_timestamps WHERE last_seen < 1631039489 - (30 * 86400))" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:31:32: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:31:32: [weapons.smx] Timestamp Query failed! query: "REPLACE INTO weapons_timestamps (steamid, last_seen) VALUES ('STEAM_1:1:175424855', 1631039492)" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:31:40: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 20:31:40: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 20:31:40: [SM] Call stack trace:
+L 09/07/2021 - 20:31:40: [SM]   [0] VFormat
+L 09/07/2021 - 20:31:40: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 20:31:40: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 20:31:50: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:31:50: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:603506329')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:31:58: [gloves.smx] Update Player failed! no such table: gloves
+L 09/07/2021 - 20:32:07: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 37 WHERE steamid = 'STEAM_1:1:175424855'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:32:12: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 33 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:32:23: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_butterfly = 618 WHERE steamid = 'STEAM_1:1:175424855'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:32:35: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_karambit = 419 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:32:36: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_karambit = 420 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:32:39: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_karambit = 421 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:32:46: [gloves.smx] Update Player failed! no such table: gloves
+L 09/07/2021 - 20:32:47: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:32:47: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:512711620')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:33:14: [weapons.smx] Update Player failed! query: "UPDATE weapons SET usp_silencer = 653 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:34:14: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = 1006 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:34:17: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 20:34:17: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 20:34:17: [SM] Call stack trace:
+L 09/07/2021 - 20:34:17: [SM]   [0] VFormat
+L 09/07/2021 - 20:34:17: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 20:34:17: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 20:34:41: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:34:41: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:1:588727361')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:36:44: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 20:36:44: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 20:36:44: [SM] Call stack trace:
+L 09/07/2021 - 20:36:44: [SM]   [0] VFormat
+L 09/07/2021 - 20:36:44: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 20:36:44: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 20:36:59: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:36:59: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:1:582793324')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:38:34: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 45 WHERE steamid = 'STEAM_1:1:582793324'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:38:35: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 37 WHERE steamid = 'STEAM_1:1:582793324'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:38:42: [weapons.smx] Update Player failed! query: "UPDATE weapons SET ak47 = 801 WHERE steamid = 'STEAM_1:1:588727361'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:39:39: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = 841 WHERE steamid = 'STEAM_1:1:588727361'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:40:21: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 37 WHERE steamid = 'STEAM_1:1:588727361'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:40:31: [weapons.smx] Update Player failed! query: "UPDATE weapons SET awp = 887 WHERE steamid = 'STEAM_1:1:588727361'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:40:37: [weapons.smx] Update Player failed! query: "UPDATE weapons SET glock = 918 WHERE steamid = 'STEAM_1:1:588727361'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:45:42: [gloves.smx] Update Player failed! no such table: gloves
+L 09/07/2021 - 20:45:54: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 20:45:54: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 20:45:54: [SM] Call stack trace:
+L 09/07/2021 - 20:45:54: [SM]   [0] VFormat
+L 09/07/2021 - 20:45:54: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 20:45:54: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 20:45:57: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:45:57: [weapons.smx] Timestamp Query failed! query: "REPLACE INTO weapons_timestamps (steamid, last_seen) VALUES ('STEAM_1:1:175424855', 1631040357)" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:47:35: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 20:47:35: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 20:47:35: [SM] Call stack trace:
+L 09/07/2021 - 20:47:35: [SM]   [0] VFormat
+L 09/07/2021 - 20:47:35: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 20:47:35: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 20:47:40: [weapons.smx] Update Player failed! query: "UPDATE weapons SET usp_silencer = 705 WHERE steamid = 'STEAM_1:1:588727361'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:48:00: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:48:00: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:559788304')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:48:08: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 37 WHERE steamid = 'STEAM_1:1:175424855'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:48:16: [weapons.smx] Update Player failed! query: "UPDATE weapons SET ak47 = 724 WHERE steamid = 'STEAM_1:0:603506329'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:48:16: [weapons.smx] Update Player failed! query: "UPDATE weapons SET aug = 758 WHERE steamid = 'STEAM_1:1:588727361'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:48:23: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_butterfly = 44 WHERE steamid = 'STEAM_1:1:175424855'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:48:29: [SM] Exception reported: Language phrase "CMD_Respawn" not found (arg 5)
+L 09/07/2021 - 20:48:29: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 20:48:29: [SM] Call stack trace:
+L 09/07/2021 - 20:48:29: [SM]   [0] ShowActivity2
+L 09/07/2021 - 20:48:29: [SM]   [1] Line 1060, advadmin.sp::CMD_Respawn
+L 09/07/2021 - 20:49:22: Error log file session closed.
+L 09/07/2021 - 20:49:22: SourceMod error session started
+L 09/07/2021 - 20:49:22: Info (map "de_mirage") (file "")
+L 09/07/2021 - 20:49:22: [SM] Fatal error encountered parsing translation file "advadmin.phrases.txt"
+L 09/07/2021 - 20:49:22: [SM] Error (line 0, column 0): Stream failed to open
+L 09/07/2021 - 20:49:22: [SM] Fatal error encountered parsing translation file "franug_weaponpaints.phrases.txt"
+L 09/07/2021 - 20:49:22: [SM] Error (line 279, column 32): Un-quoted section has invalid tokens
+L 09/07/2021 - 20:49:22: [SM] Exception reported: [eItems] Local backup not found! Turning plugin off.
+L 09/07/2021 - 20:49:22: [SM] Blaming: eItems.smx
+L 09/07/2021 - 20:49:22: [SM] Call stack trace:
+L 09/07/2021 - 20:49:22: [SM]   [0] SetFailState
+L 09/07/2021 - 20:49:22: [SM]   [1] Line 41, files/parse.sp::LoadBackup
+L 09/07/2021 - 20:49:22: [SM]   [2] Line 24, files/parse.sp::PraseItemsDownloaded
+L 09/07/2021 - 20:49:22: [weapons.smx] Delete Inactive Player Data failed! query: "DELETE FROM weapons WHERE steamid in (SELECT steamid FROM weapons_timestamps WHERE last_seen < 1631040562 - (30 * 86400))" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:49:29: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:49:30: [weapons.smx] Timestamp Query failed! query: "REPLACE INTO weapons_timestamps (steamid, last_seen) VALUES ('STEAM_1:1:175424855', 1631040569)" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:49:43: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:49:43: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:559788304')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:50:20: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 49 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:50:21: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 50 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:50:22: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 51 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:50:23: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 45 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:50:23: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 46 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:50:24: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 33 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:50:24: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 34 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:51:45: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 20:51:45: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 20:51:45: [SM] Call stack trace:
+L 09/07/2021 - 20:51:45: [SM]   [0] VFormat
+L 09/07/2021 - 20:51:45: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 20:51:45: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 20:52:00: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 20:52:00: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 20:52:00: [SM] Call stack trace:
+L 09/07/2021 - 20:52:00: [SM]   [0] VFormat
+L 09/07/2021 - 20:52:00: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 20:52:00: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 20:52:10: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = 1050 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:52:11: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = 962 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:52:49: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:52:49: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:512711620')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:52:54: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 20:52:55: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:595372878')" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:53:40: [gloves.smx] Update Player failed! no such table: gloves
+L 09/07/2021 - 20:54:17: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = -1 WHERE steamid = 'STEAM_1:0:559788304'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:54:18: [gloves.smx] Update Player failed! no such table: gloves
+L 09/07/2021 - 20:54:57: [weapons.smx] Update Player failed! query: "UPDATE weapons SET ak47 = 836 WHERE steamid = 'STEAM_1:0:595372878'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:54:58: [weapons.smx] Update Player failed! query: "UPDATE weapons SET ak47 = 801 WHERE steamid = 'STEAM_1:0:595372878'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:55:33: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = 757 WHERE steamid = 'STEAM_1:0:595372878'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:55:35: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = 509 WHERE steamid = 'STEAM_1:0:595372878'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:55:36: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = 470 WHERE steamid = 'STEAM_1:0:595372878'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:55:38: [weapons.smx] Update Player failed! query: "UPDATE weapons SET deagle = 469 WHERE steamid = 'STEAM_1:0:595372878'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:56:03: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 37 WHERE steamid = 'STEAM_1:0:595372878'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:56:10: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_butterfly = 44 WHERE steamid = 'STEAM_1:0:595372878'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:58:12: [weapons.smx] Update Player failed! query: "UPDATE weapons SET ak47 = 959 WHERE steamid = 'STEAM_1:1:175424855'" error: "attempt to write a readonly database"
+L 09/07/2021 - 20:59:22: [SM] Exception reported: Language phrase "CMD_Give" not found (arg 5)
+L 09/07/2021 - 20:59:22: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 20:59:22: [SM] Call stack trace:
+L 09/07/2021 - 20:59:22: [SM]   [0] ShowActivity2
+L 09/07/2021 - 20:59:22: [SM]   [1] Line 883, advadmin.sp::CMD_Give
+L 09/07/2021 - 21:02:00: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 21:02:00: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 21:02:00: [SM] Call stack trace:
+L 09/07/2021 - 21:02:00: [SM]   [0] VFormat
+L 09/07/2021 - 21:02:00: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 21:02:00: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 21:02:07: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 21:02:07: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:1:595119650')" error: "attempt to write a readonly database"
+L 09/07/2021 - 21:02:50: Error log file session closed.
+L 09/07/2021 - 21:02:50: SourceMod error session started
+L 09/07/2021 - 21:02:50: Info (map "de_inferno") (file "")
+L 09/07/2021 - 21:02:50: [SM] Fatal error encountered parsing translation file "advadmin.phrases.txt"
+L 09/07/2021 - 21:02:50: [SM] Error (line 0, column 0): Stream failed to open
+L 09/07/2021 - 21:02:50: [SM] Fatal error encountered parsing translation file "franug_weaponpaints.phrases.txt"
+L 09/07/2021 - 21:02:50: [SM] Error (line 279, column 32): Un-quoted section has invalid tokens
+L 09/07/2021 - 21:02:51: [SM] Exception reported: [eItems] Local backup not found! Turning plugin off.
+L 09/07/2021 - 21:02:51: [SM] Blaming: eItems.smx
+L 09/07/2021 - 21:02:51: [SM] Call stack trace:
+L 09/07/2021 - 21:02:51: [SM]   [0] SetFailState
+L 09/07/2021 - 21:02:51: [SM]   [1] Line 41, files/parse.sp::LoadBackup
+L 09/07/2021 - 21:02:51: [SM]   [2] Line 24, files/parse.sp::PraseItemsDownloaded
+L 09/07/2021 - 21:02:51: [weapons.smx] Delete Inactive Player Data failed! query: "DELETE FROM weapons WHERE steamid in (SELECT steamid FROM weapons_timestamps WHERE last_seen < 1631041371 - (30 * 86400))" error: "attempt to write a readonly database"
+L 09/07/2021 - 21:02:59: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 21:02:59: [weapons.smx] Timestamp Query failed! query: "REPLACE INTO weapons_timestamps (steamid, last_seen) VALUES ('STEAM_1:1:175424855', 1631041379)" error: "attempt to write a readonly database"
+L 09/07/2021 - 21:03:05: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 21:03:05: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:512711620')" error: "attempt to write a readonly database"
+L 09/07/2021 - 21:03:44: [SM] Exception reported: Language phrase "Player_Connected_From" not found (arg 3)
+L 09/07/2021 - 21:03:44: [SM] Blaming: advadmin.smx
+L 09/07/2021 - 21:03:44: [SM] Call stack trace:
+L 09/07/2021 - 21:03:44: [SM]   [0] VFormat
+L 09/07/2021 - 21:03:44: [SM]   [1] Line 385, D:\Game Mods\CSGO\Szerver\CSGO\csgo\addons\sourcemod\scripting\include\halflife.inc::PrintToChatAll
+L 09/07/2021 - 21:03:44: [SM]   [2] Line 141, advadmin.sp::OnClientAuthorized
+L 09/07/2021 - 21:03:45: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 21:03:45: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:1:595119650')" error: "attempt to write a readonly database"
+L 09/07/2021 - 21:04:02: [gloves.smx] Query failed! no such table: gloves
+L 09/07/2021 - 21:04:02: [weapons.smx] Insert Query failed! query: "INSERT INTO weapons (steamid) VALUES ('STEAM_1:0:562996386')" error: "attempt to write a readonly database"
+L 09/07/2021 - 21:05:10: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife = 37 WHERE steamid = 'STEAM_1:1:595119650'" error: "attempt to write a readonly database"
+L 09/07/2021 - 21:05:19: [weapons.smx] Update Player failed! query: "UPDATE weapons SET knife_butterfly = 619 WHERE steamid = 'STEAM_1:1:595119650'" error: "attempt to write a readonly database"
+L 09/07/2021 - 21:06:06: [weapons.smx] Update Player failed! query: "UPDATE weapons SET m4a1 = -1 WHERE steamid = 'STEAM_1:1:595119650'" error: "attempt to write a readonly database"
